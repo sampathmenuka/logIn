@@ -35,7 +35,7 @@ body{
 }
 
 .input-box input{
-    width: 100%;
+    width: 90%;
     height: 100%;
     background: transparent;
     border: none;
@@ -44,7 +44,7 @@ body{
     border-radius: 40px;
     font-size: 16px;
     color: #fff;
-    padding: 20px;
+    padding: 20px 45px 20px 20px;
     margin: 20px 20px;
 }
 
@@ -56,4 +56,25 @@ body{
 .input-box i {
     position: absolute;
     right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.wrapper .rem-fog{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.rem-fog label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+} 
+
+.rem-fog a {
+    color: #fff;
+    text-decoration: none;
 }
